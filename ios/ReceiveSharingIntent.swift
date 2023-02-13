@@ -166,6 +166,7 @@ class ReceiveSharingIntent: NSObject {
     
     @objc
     func clearFileNames(){
+        latestMedia = nil;
         print("clearFileNames");
     }
     
